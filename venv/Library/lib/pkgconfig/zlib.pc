@@ -1,0 +1,13 @@
+prefix=D:/Data Science/Udemy MLOPs/gittutorials/venv/Library
+exec_prefix=D:/Data Science/Udemy MLOPs/gittutorials/venv/Library
+libdir=D:/Data Science/Udemy MLOPs/gittutorials/venv/Library/lib
+sharedlibdir=D:/Data Science/Udemy MLOPs/gittutorials/venv/Library/lib
+includedir=D:/Data Science/Udemy MLOPs/gittutorials/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
